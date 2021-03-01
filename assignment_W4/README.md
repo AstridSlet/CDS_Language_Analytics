@@ -1,9 +1,12 @@
 ## Repository description 
 
-The files found at this repo relates to the assignment of W4 (see below). To run the script download this folder and install the necessary packages found at the top of in the script:
-re, string, pathlib, pandas, collections, numpy, string
+The files found at this repo relates to the assignment of W4 (see below). To run the script you need to set up the virtual environment made for this project. To do this you need to download the folder. 
 
-You can then run the script __sentiment.py__ with the data (a csv file placed in the 'data' folder). 
+Then in bash you move to the folder and run the command: 
+
+bash create_lang_venv.sh
+
+You should then be able to run the script __sentiment.py__ with the data (a csv file called "abcnews-date-text.csv" placed in the 'data' folder). 
 If you are unable to download the data from this repo, the data can also be found at this link: https://www.kaggle.com/therohk/million-headlines
 
 When the script has been run it should produce two plots (which will be placed in the 'output' folder) which shows plots of mean sentiment for the different dates found in the data with a rolling average with a window size of either 7 or 30 days.
@@ -48,5 +51,5 @@ This assignment is designed to test that you have a understanding of:
 ## Summary paragraph 
 
 
-
+It is hard to say anything about the 'big' tendencies when simply computing the rolling average over 7 days. In this plot you see a lot of changes in the graph. In the plot with the 30-day rolling average it seems that there are two 'peaks' in sentiment in april 2003 and october 2003. 
 
