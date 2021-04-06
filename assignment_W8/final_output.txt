@@ -1,0 +1,24 @@
+The trained model has 5 topics.
+Perplexity score: -7.761134868416771.
+Coherence score: 0.33761490177448966.
+The topics of the model are: 
+[(0,
+  '0.056*"cancer" + 0.041*"hpv" + 0.033*"cervical" + 0.013*"girl" + '
+  '0.011*"woman" + 0.011*"programme" + 0.011*"infection" + 0.009*"boy" + '
+  '0.008*"age" + 0.007*"impact"'),
+ (1,
+  '0.012*"people" + 0.011*"anti" + 0.011*"exemption" + 0.009*"child" + '
+  '0.007*"force" + 0.007*"medical" + 0.007*"mandatory" + 0.007*"rate" + '
+  '0.006*"would" + 0.006*"issue"'),
+ (2,
+  '0.027*"badger" + 0.020*"championship" + 0.014*"mark" + 0.013*"cull" + '
+  '0.012*"share" + 0.010*"finserv" + 0.010*"systematic" + 0.010*"questionable" '
+  '+ 0.009*"crackdown" + 0.009*"probe"'),
+ (3,
+  '0.012*"patch" + 0.012*"sexual" + 0.012*"win" + 0.011*"rape" + 0.011*"pm" + '
+  '0.009*"corrupt" + 0.009*"grade" + 0.009*"deliver" + 0.009*"car" + '
+  '0.009*"pet"'),
+ (4,
+  '0.016*"child" + 0.013*"measle" + 0.011*"get" + 0.010*"rate" + 0.008*"year" '
+  '+ 0.008*"people" + 0.008*"disease" + 0.008*"health" + 0.007*"need" + '
+  '0.006*"make"')]
