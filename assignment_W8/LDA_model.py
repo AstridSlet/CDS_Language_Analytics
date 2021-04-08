@@ -61,7 +61,7 @@ def read_data(input_file):
 def preprocess(chunks, t_value):
     """ 
     1. Build the bigram and trigram models
-    2. Lemmatize and choose specific pos_tags and take only unigram, bigrams and trigrams above the threshold (t_value)
+    2. Lemmatize and choose specific pos_tags and take only unigram, bigrams and trigrams above the threshold (t_value) = data_processed
     3. Create dictionary of the processed data (id2word)
     4. Create corpus: for each unigram/bigram/trigram count the freq (=Term Document Frequency)
     
