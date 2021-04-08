@@ -8,14 +8,14 @@ __Research question:__
 
 To investigate this question I have downloaded a data set from kaggle which is constituted by all tweets containing the string 'vaccination' from the year 2006 to 30th of November 2019. The data set, which is also placed in the data folder, can be found here: https://www.kaggle.com/keplaxo/twitter-vaccination-dataset
 
-If you want to redo this analysis you need to unzip the data subset called 'vaccination2.csv' in the data folder of this repo - or download the full data set from kaggle set and place it in the folder.  
+If you want to redo this analysis you need to unzip the data subset called 'vaccination2.csv' in the data folder of this repo - or download the full data set from kaggle set and place it in the folder and add the argument -i "name_of_file.csv" when running the main script at this repo.  
 
 
 __Answer to research question:__
-In textfile final_output.txt it seems that five dominant topics have been prevalent on the topic of vaccines in the past years. Examples of interesting topics is topic 0 and topic 1.
-Topic 0 seems to be related to the HPV vaccine with words like "hpv", "women", "girl" and "age". 
-Topic 1 seems to be related to whether vaccines should be mandatory with words like "anti","force", "mandatory" and "issue"'),
-When looking at the plot (topics_over_time.jpg) in the out folder it seems that topic no 1 is relative prevalent in the discussion at all times. And then topic no 1 is not as prevalent but there are some distinct spikes in the blue line at some points. 
+* In textfile final_output.txt it seems that five dominant topics have been prevalent on the topic of vaccines in the past years. Examples of interesting topics is topic 0 and topic 1.
+* Topic 0 seems to be related to the HPV vaccine with words like "hpv", "women", "girl" and "age". 
+* Topic 1 seems to be related to whether vaccines should be mandatory with words like "anti","force", "mandatory" and "issue"'),
+* When looking at the plot (topics_over_time.jpg) in the out folder it seems that topic no 1 is relative prevalent in the discussion at all times. And then topic no 1 is not as prevalent but there are some distinct spikes in the blue line at some points. 
 
 I have not managed to put dates on the x-axis. Right now the tweets are ordered by date before they are made into chunks which means that the plot should show the development in the topic prevalence over time... but I would like to work more on the line plot and maybe put some date time stamps at least at some poinst of the x-axis. 
 
@@ -25,7 +25,7 @@ __Work flow__
 To investigate the research question I used unsupervised machine learning (latent dirichlet allocation). In order to run the analysis I also created a script for preprocessing twitter data.
 
 There are therefore two scripts at this repo: 
-* preproc.py (for prerprocessing)
+* preproc.py (for preprocessing)
 * LDA_model.py (for topic modelling) 
 
 In order to run the scripts you need to create the venv __lang101__. To do this you download this folder. Then you cd into the folder and run:
