@@ -8,7 +8,7 @@ __Research question:__
 
 To investigate this question I have downloaded a data set from kaggle which is constituted by all tweets containing the string 'vaccination' from the year 2006 to 30th of November 2019. The data set, which is also placed in the data folder, can be found here: https://www.kaggle.com/keplaxo/twitter-vaccination-dataset
 
-If you want to redo this analysis you need to download the data from kaggle set and place the data subset called 'vaccination2.csv' in the data folder of this repo. 
+If you want to redo this analysis you need to unzip the data subset called 'vaccination2.csv' in the data folder of this repo - or download the full data set from kaggle set and place it in the folder.  
 
 
 __Answer to research question:__
