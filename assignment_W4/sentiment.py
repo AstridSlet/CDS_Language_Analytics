@@ -1,4 +1,6 @@
-from pathlib import Path # for fetching path 
+# ! /usr/bin/python
+
+from pathlib import Path # for fetching path
 import pandas as pd # for creating df 
 import numpy as np 
 import os

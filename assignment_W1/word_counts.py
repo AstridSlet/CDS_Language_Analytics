@@ -1,3 +1,5 @@
+# ! /usr/bin/python
+
 ##### LANGUAGE ANALYTICS ASSIGNMENT 1 #####
 
 # load packages
